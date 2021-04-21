@@ -5,7 +5,7 @@ server.all('/', (req, res)=>{
 })
 
 function keepAlive(){
-    server.listen(3000, ()=>{console.log("Kobold is Ready!")});
+    server.listen(8080, ()=>{console.log("Kobold is Ready!")});
 }
 
 module.exports = keepAlive;
