@@ -11,7 +11,7 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "discord.js": "^12.5.3",
-    "express": "~4.16.1",
+    "express": "^4.17.1",
     "http-errors": "~1.6.3",
     "instagrammar": "https://bitbucket.org/ezeffiro/instagrammar.git",
     "lorem-ipsum": "^2.0.3",

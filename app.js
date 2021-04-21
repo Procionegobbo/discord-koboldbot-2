@@ -106,3 +106,9 @@ client.on('message', msg => {
 //keepAlive();
 
 client.login(process.env.DISCORD_TOKEN);
+
+const express = require('express');
+const server = express();
+server.all('/', (req, res)=>{
+    res.send('Kobold bot is alive!')
+})
