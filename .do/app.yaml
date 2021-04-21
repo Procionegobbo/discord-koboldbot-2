@@ -1,8 +1,8 @@
-name: sample-nodejs
+name: discord-koboldbot-2
 services:
 - environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-nodejs
-  name: sample-nodejs
+    repo: Procionegobbo/discord-koboldbot-2
+  name: discord-koboldbot-2
