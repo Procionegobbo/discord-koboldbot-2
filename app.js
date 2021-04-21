@@ -5,7 +5,7 @@ const { Client, MessageEmbed } = require('discord.js');
 //const client = new Client({autoReconnect: true});
 const client = new Client();
 
-//const keepAlive = require('./server');
+const keepAlive = require('./server');
 const generateKobold = require('./koboldgrammar');
 
 
@@ -103,12 +103,6 @@ client.on('message', msg => {
 });
 
 
-//keepAlive();
+keepAlive();
 
 client.login(process.env.DISCORD_TOKEN);
-
-const express = require('express');
-const server = express();
-server.all('/', (req, res)=>{
-    res.send('Kobold bot is alive!')
-})
