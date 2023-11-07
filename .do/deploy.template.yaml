@@ -1,0 +1,8 @@
+spec:
+  name: discord-koboldbot-2
+  services:
+  - environment_slug: node-js
+    git:
+      branch: main
+      repo_clone_url: https://github.com/Procionegobbo/discord-koboldbot-2
+    name: discord-koboldbot-2
