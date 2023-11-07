@@ -9,10 +9,6 @@ const keepAlive = require('./server');
 const generateKobold = require('./koboldgrammar');
 
 
-const armaUrl = 'https://grammar.procionegobbo.it/grammar/arma-fantasy-json';
-const pngUrl = 'https://grammar.procionegobbo.it/grammar/png-json';
-const koboldUrl = 'https://grammar.procionegobbo.it/grammar/koboldoJson';
-
 client.on('ready', () => {
     console.log(`RandomKoboldBot è online ${client.user.tag}!`);
 });
